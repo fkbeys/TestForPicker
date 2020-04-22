@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             NavigationPage.HasBackButton="False"
              xmlns:local="clr-namespace:TestForPicker.ViewModel"
              x:Class="TestForPicker.MainPage">
     

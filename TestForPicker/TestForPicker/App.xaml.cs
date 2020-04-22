@@ -1,5 +1,4 @@
-﻿using System;
-using TestForPicker.Views;
+﻿using System; 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +10,7 @@ namespace TestForPicker
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Page1());
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
