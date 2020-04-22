@@ -5,13 +5,9 @@ using TestForPicker.Helper;
 
 namespace TestForPicker.Models
 {
-    public class Stocks : BaseViewModel
+    public class StocksModel : BaseViewModel
     {
-        public int Stock_Id { get; set; }
-
-
-
-
+        public int Stock_Id { get; set; } 
 
         private string _Stock_Name;
         public string Stock_Name
@@ -23,8 +19,5 @@ namespace TestForPicker.Models
                 INotifyPropertyChanged();
             }
         }
-
-
-
     }
 }
